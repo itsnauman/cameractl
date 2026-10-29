@@ -1,0 +1,23 @@
+[package]
+name = "sony-ptp3"
+version = "0.1.0"
+edition = "2021"
+authors = ["Nauman Ahmad <nauman-ahmad@outlook.com>"]
+description = "Sony Camera Control PTP 3 client"
+license = "MIT"
+repository = "https://github.com/itsnauman/cameractl"
+homepage = "https://github.com/itsnauman/cameractl"
+readme = "README.md"
+keywords = ["sony", "camera", "ptp", "usb"]
+categories = ["command-line-utilities", "hardware-support"]
+publish = false
+
+[dependencies]
+rusb = "0.9"
+thiserror = "2"
+clap = { version = "4.5", features = ["derive"] }
+serde_json = "1"
+
+[[bin]]
+name = "cameractl"
+path = "src/bin/cameractl/main.rs"

@@ -1,0 +1,6 @@
+# Google Rust style guide: https://google.github.io/styleguide/rustguide.html
+#
+# max_width 100 is rustfmt's stable default. hex_literal_case, imports_granularity,
+# and format_macro_matchers are unstable on the stable toolchain, so this file
+# does not set them. Hex literals are written in lowercase by hand.
+max_width = 100
