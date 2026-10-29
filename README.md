@@ -2,7 +2,7 @@
 
 `cameractl` controls a Sony camera over USB. It speaks Sony Camera Control PTP 3, the remote-control protocol the camera exposes in PC Remote (on some bodies, PC Control).
 
-This repository is two things: the `cameractl` command, and the `sony-ptp3` Rust library behind it. The command is meant for scripts and agents. Stdout is data. Stderr is messages.
+This repository is two things: the `cameractl` command, and the `sony-ptp3` Rust library behind it.
 
 ## Requirements
 
